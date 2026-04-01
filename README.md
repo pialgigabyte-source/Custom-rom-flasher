@@ -23,7 +23,7 @@ Before using this tool, ensure you have the following:
 ## 🚀 How to Use
 
 ### Flashing a Custom ROM / Recovery
-1. Launch `flasher.exe`.
+1. Launch `Multi Flasher Tool By Raphael.exe`.
 2. Connect your device with USB Debugging enabled. The tool will auto-detect it.
 3. Click **Reboot to Bootloader** to enter Fastboot mode.
 4. Browse and select your Custom Recovery (`.img`) and click **FLASH NOW**.
