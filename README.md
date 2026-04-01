@@ -1,6 +1,6 @@
 # 🚀 ROM Flasher Pro
 
-**ROM Flasher Pro** is a modern, lightweight, and fully automated GUI tool designed to make flashing Custom ROMs, Recoveries, and Kernels as safe and intuitive as possible. Built with Python and CustomTkinter, it completely eliminates the need to manually type ADB and Fastboot commands in the terminal.
+**MULTI FLASHER / ROM Flasher Pro** is a modern, lightweight, and fully automated GUI tool designed to make flashing Custom ROMs, Recoveries, and Kernels as safe and intuitive as possible. Built with Python and CustomTkinter, it completely eliminates the need to manually type ADB and Fastboot commands in the terminal.
 
 ## ✨ Features
 
