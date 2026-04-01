@@ -29,18 +29,21 @@ Before using this tool, ensure you have the following:
 4. Browse and select your Custom Recovery (`.img`) and click **FLASH NOW**.
 5. Once in Recovery, wipe your data, enable **ADB Sideload**, and select your ROM (`.zip`) to flash.
 
+![Image Alt](https://github.com/pialgigabyte-source/Custom-rom-flasher/blob/fb5a7fd486c476ab5b8683303a9be4fe23bfaa84/Screenshot%202026-04-01%20235823.png)
+
+![Image Alt](https://github.com/pialgigabyte-source/Custom-rom-flasher/blob/8127d754ba879338c9409ee7fed70107ba102971/Screenshot%202026-04-02%20000056.png)
+
+![Image Alt](https://github.com/pialgigabyte-source/Custom-rom-flasher/blob/c34fb6433a3075a28bc25c8fed39ad4fb19bd244/Screenshot%202026-04-02%20000609.png)
+
 ### Flashing a Custom Kernel
 1. Navigate to the **Kernel Flasher** tab.
 2. Ensure your device is connected via ADB.
 3. Select your Custom Kernel (`.zip`).
 4. Click **FLASH KERNEL**. The tool will automatically reboot your phone to recovery, wait for you to enable sideload, and flash the file.
 
-![Image Alt](https://github.com/pialgigabyte-source/Custom-rom-flasher/blob/fb5a7fd486c476ab5b8683303a9be4fe23bfaa84/Screenshot%202026-04-01%20235823.png)
+![Image Alt](https://github.com/pialgigabyte-source/Custom-rom-flasher/blob/c34fb6433a3075a28bc25c8fed39ad4fb19bd244/Screenshot%202026-04-02%20000840.png)
 
-
-![Image Alt](https://github.com/pialgigabyte-source/Custom-rom-flasher/blob/8127d754ba879338c9409ee7fed70107ba102971/Screenshot%202026-04-02%20000056.png)
-
-
+![Image Alt](https://github.com/pialgigabyte-source/Custom-rom-flasher/blob/c34fb6433a3075a28bc25c8fed39ad4fb19bd244/Screenshot%202026-04-02%20001548.png)
 
 
 ## ⚠️ Disclaimer
