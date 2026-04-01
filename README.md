@@ -38,7 +38,7 @@ Before using this tool, ensure you have the following:
 ![Image Alt](https://github.com/pialgigabyte-source/Custom-rom-flasher/blob/fb5a7fd486c476ab5b8683303a9be4fe23bfaa84/Screenshot%202026-04-01%20235823.png)
 
 
-
+![Image Alt](https://github.com/pialgigabyte-source/Custom-rom-flasher/blob/8127d754ba879338c9409ee7fed70107ba102971/Screenshot%202026-04-02%20000056.png)
 
 
 
