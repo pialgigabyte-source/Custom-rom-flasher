@@ -35,7 +35,7 @@ Before using this tool, ensure you have the following:
 3. Select your Custom Kernel (`.zip`).
 4. Click **FLASH KERNEL**. The tool will automatically reboot your phone to recovery, wait for you to enable sideload, and flash the file.
 
-![Image Alt]([image_url](https://github.com/pialgigabyte-source/Custom-rom-flasher/blob/fb5a7fd486c476ab5b8683303a9be4fe23bfaa84/Screenshot%202026-04-01%20235823.png))
+![Image Alt]([image_url](https://github.com/pialgigabyte-source/Custom-rom-flasher/blob/fb5a7fd486c476ab5b8683303a9be4fe23bfaa84/Screenshot%202026-04-01%20235823.png)
 
 
 
