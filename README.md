@@ -2,6 +2,20 @@
 
 **MULTI FLASHER / ROM Flasher Pro** is a modern, lightweight, and fully automated GUI tool designed to make flashing Custom ROMs, Recoveries, and Kernels as safe and intuitive as possible. Built with Python and CustomTkinter, it completely eliminates the need to manually type ADB and Fastboot commands in the terminal.
 
+
+✨ What's New
+Faster Extraction: Switched to payload-dumper-go for lightning-fast native ROM extraction.
+
+Sleek UI Overhaul: Upgraded to a deep space dark theme with 100fps fluid tab animations and perfectly symmetrical layouts.
+
+Smart ADB Cleanup: Automatically kills background ADB processes when the app is closed to free up system memory.
+
+Safe Abort Button: Added a red "STOP FLASHING" button to safely cancel operations before entering Sideload mode.
+
+Anti-Brick Protection: Reboot and Stop actions are strictly locked out during adb sideload to prevent soft-bricks.
+
+Dynamic UI: The Kernel tab is now safely disabled until the device is actively detected in Sideload mode.
+
 ## ✨ Features
 
 * **Smart Device Detection:** Automatically detects whether your device is in ADB, Fastboot, or Sideload mode and updates the UI in real-time.
@@ -54,6 +68,11 @@ Before using this tool, ensure you have the following:
 ## ⚠️ Disclaimer
 
 **Use at your own risk.** Flashing custom firmware can potentially brick your device. The developer is not responsible for any damage to your device, lost data, or voided warranties. Always ensure you are flashing the correct files for your specific device model.
+
+⚠️ Windows Defender / Antivirus Warning
+Because this tool is a compiled Python executable that runs background terminal commands (ADB/Fastboot), Windows Defender may flag it as a virus (e.g., Program:Win32/Contebrew.A!ml).
+
+This is a false positive. To use the tool, click "More info" -> "Run anyway" if SmartScreen blocks it, or allow it in Windows Security. All source code is provided in this repository for full transparency.
 
 ## 👨‍💻 Author
 
