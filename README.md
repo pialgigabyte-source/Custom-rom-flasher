@@ -67,9 +67,18 @@ Before using this tool, ensure you have the following:
 ![Image Alt](https://github.com/pialgigabyte-source/Custom-rom-flasher/blob/c34fb6433a3075a28bc25c8fed39ad4fb19bd244/Screenshot%202026-04-02%20001548.png)
 
 
-## ⚠️ Disclaimer
+⚠️ IMPORTANT DISCLAIMER: DEVICE COMPATIBILITY ⚠️
+Please read carefully before using this tool!
 
-**Use at your own risk.** Flashing custom firmware can potentially brick your device. The developer is not responsible for any damage to your device, lost data, or voided warranties. Always ensure you are flashing the correct files for your specific device model.
+This application is hardcoded to use standard fastboot flash commands to write extracted images directly to your device's physical partitions.
+
+🚫 DO NOT use this tool on devices that require the fastboot boot method (e.g., certain A/B slot devices that require temporarily booting into a recovery image rather than flashing it directly).
+
+🚫 DO NOT use this tool on devices that rely on proprietary or non-standard fastboot protocols.
+
+✅ COMPATIBILITY: This flasher is ONLY compatible with devices that safely support direct partition flashing via standard fastboot flash <partition_name> <image_name>.img commands.
+
+Flashing incorrect partitions or using this tool on incompatible devices can result in a hard brick. You are choosing to use this tool at your own risk. The developer is not responsible for any damaged or bricked devices.
 
 ⚠️ Windows Defender / Antivirus Warning
 Because this tool is a compiled Python executable that runs background terminal commands (ADB/Fastboot), Windows Defender may flag it as a virus (e.g., Program:Win32/Contebrew.A!ml).
