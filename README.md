@@ -27,6 +27,32 @@ Dynamic UI: The Kernel tab is now safely disabled until the device is actively d
 * **Modern UI:** Sleek, dark-mode Material UI design with dynamic icons and responsive elements.
 * **Portable:** Compiled as a single standalone `.exe` file—no installation required.
 
+## 📁 Project Structure
+
+```
+Custom-rom-flasher/
+├── src/
+│   ├── flasher.py       # Application source (recovered/organized from the shipped build)
+│   └── adb/             # Bundled adb.exe / fastboot.exe / payload-dumper-go.exe used at runtime
+├── releases/            # Pre-built .exe downloads and versioned .zip bundles
+├── assets/              # README screenshots and images
+├── requirements.txt
+└── README.md
+```
+
+## ▶️ Running from Source
+
+1. Install Python 3.14+ on Windows.
+2. Install dependencies:
+   ```
+   pip install -r requirements.txt
+   ```
+3. Make sure `payload-dumper-go.exe` is present in `src/adb/` (used for fast ROM partition extraction). It is not committed to this repo; download it separately and drop it into `src/adb/`.
+4. Run:
+   ```
+   python src/flasher.py
+   ```
+
 ## 🛠️ Prerequisites
 
 Before using this tool, ensure you have the following:
@@ -37,7 +63,7 @@ Before using this tool, ensure you have the following:
 ## 🚀 How to Use
 
 ### Flashing a Custom ROM / Recovery
-1. Launch `Multi Flasher Tool By Raphael.exe`.
+1. Launch `releases/Multi Flasher Tool By Raphael.exe` (or run `python src/flasher.py` from source).
 2. Connect your device with USB Debugging enabled. The tool will auto-detect it.
 3. Click **Reboot to Bootloader** to enter Fastboot mode.
 4. Browse and select your Custom Recovery (`.img`) and click **FLASH NOW**.
