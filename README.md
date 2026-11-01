@@ -43,6 +43,9 @@ Before using this tool, ensure you have the following:
 4. Browse and select your Custom Recovery (`.img`) and click **FLASH NOW**.
 5. Once in Recovery, wipe your data, enable **ADB Sideload**, and select your ROM (`.zip`) to flash.
 
+## ROM Flasher Pro V6
+![Image Alt](https://github.com/pialgigabyte-source/Custom-rom-flasher/blob/16cd5c699b9e7fcc6b12acc6f0304558cbeebf41/Screenshot%202026-11-02%20013636.png)
+![Image Alt](https://github.com/pialgigabyte-source/Custom-rom-flasher/blob/16cd5c699b9e7fcc6b12acc6f0304558cbeebf41/Screenshot%202026-11-02%20013543.png)
 ## ROM Flasher Pro V5
 ![Image Alt](https://github.com/pialgigabyte-source/Custom-rom-flasher/blob/main/Screenshot%202026-08-15%20155315.png)
 ## ROM Flasher Pro V4
